@@ -1,0 +1,64 @@
+h1 {
+    margin: 30px;
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+.menu a{
+    padding: 10px;
+}
+.menu{
+    margin-right: 30px;
+    padding: 20px;
+}
+
+a:link{
+    color:black; 
+}
+a:visited{
+    color:blue;
+}
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.origami{
+position:relative;
+}
+.origami h3{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-30%,-30%);
+    opacity:0;
+}
+.origami:hover h3{
+  opacity:1;
+}
+.origami:hover img{
+    opacity:0.33;
+}
